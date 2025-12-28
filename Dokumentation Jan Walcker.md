@@ -32,7 +32,7 @@ f₀  = 1 / (2π√(LC))
 ## 2
 **Simulation:** Bauen Sie die Schaltung auf. Finden Sie im Simulator die Frequenz, bei der der Strom I maximal ist. (Tipp: Verwenden Sie einen "Slider" für die Frequenz und beobachten Sie die Helligkeit/Geschwindigkeit der fließenden Punkte).
 
-![Task 1 raw](https://raw.githubusercontent.com/SpongebobSquarepants35/SV2/main/HDGifs/Task1SV2HD.gif)
+![Task 1 GIF](https://raw.githubusercontent.com/SpongebobSquarepants35/SV2/main/HDGifs/Task1SV2HD.gif)
 
 ## 3
 **Dokumentation:** Notieren Sie die Frequenz, die Sie im Simulator gemessen haben.
