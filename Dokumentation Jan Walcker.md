@@ -68,3 +68,13 @@ Stellen Sie den Widerstand R so ein, dass Sie ihn interaktiv verändern können 
 **Dokumentieren** Sie durch ein GIF, wie sich die Form der Resonanzkurve (die "Peak-Form") ändert, wenn Sie R von einem sehr kleinen Wert (z.B. 5 Ω) zu einem großen Wert (z.B. 300 Ω) ändern.
 
 ![Task2 GIF](https://raw.githubusercontent.com/SpongebobSquarepants35/SV2/main/HDGifs/Task2SV2HD.gif)
+
+## 4
+**Erklären** Sie den Zusammenhang, den Sie beobachten:
+- Was passiert mit der **Höhe** des Peaks?
+  - Je höher der Widerstand ist, desto niedriger ist die Höhe des Peaks.
+- Was passiert mit der **Breite** des Peaks?
+  - Je höher der Widerstand ist, desto schmaler wird die Breite des Peaks.
+- Was bedeutet das für die **Güte Q** und die **Bandbreite** der Schaltung (vgl. Folie 9)?
+  - Wenn der Widerstand sinkt, wird die Güte höher und die Bandbreite schmaler. 
+    Bei steigendem Widerstand, steigt auch die Bandbreite und die Güte sinkt.
