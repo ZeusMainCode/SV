@@ -164,7 +164,7 @@ Dokumentieren Sie durch ein GIF, wie sich die Ausgangsspannung ändert, wenn Sie
 | 5 → 6     | 0.25          |
 | 6 → 7     | 0.313         |
 
--> Die Schrittgröße ist nicht konstant. Somit ist der Spannungsanstieg nicht linear.
+→ Die Schrittgröße ist nicht konstant. Somit ist der Spannungsanstieg nicht linear.
 </div>
 
 - Erklären Sie, warum die Schaltung das tut, was auf Folie 30 (Quantisierung/Treppenstufen) gezeigt wird.
