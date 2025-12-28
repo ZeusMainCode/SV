@@ -104,3 +104,16 @@ $$
 ## 4
 **Dokumentieren** Sie Ihre Ergebnisse durch GIFs, die den Frequenzgang beider Schaltungen zeigen.
  ![Task3 GIF](https://raw.githubusercontent.com/SpongebobSquarepants35/SV2/main/HDGifs/Task3SV2LongHD.gif)
+
+## 5
+Beantworten Sie die folgenden Fragen:
+- Bestätigt Ihre Simulation die berechnete Resonanzfrequenz?
+  - Die berechnete Resonanzfrequenz stimmt unter Berücksichtigung einer Messabweichung näherungsweise mit dem gemessenen Wert überein.
+- Beschreiben Sie präzise das gegensätzliche Verhalten der beiden Schaltungen bei dieser Frequenz.
+  - Bei der Bandpass-Schaltung erreicht die Spannung bei der Resonanzfrequenz ihr Maximum, bei der Bandsperre hingegen weist die Spannung ein Minimum auf.
+- Erklären Sie Warum führt Aufbau 1 (Parallelschwingkreis als Ausgang) zu einem Spannungsmaximum, während Aufbau 2 (Reihenschwingkreis parallel zum Ausgang) zu einem Spannungsminimum führt?
+  (Tipp: Denken Sie an die Impedanz. Wie verhält sich ein Parallelschwingkreis bei f₀? Und wie ein Reihenschwingkreis?)
+  - **Parallelschwingkreis:**
+    Bei der Resonanzfrequenz erreicht die Impedanz ihr Maximum, was zu einer erhöhten Spannung führt.
+  - **Reihenschwingkreis:**
+    Bei der Resonanzfrequenz ist die Impedanz minimal, wodurch die Spannung ein Minimum annimmt.
