@@ -39,4 +39,11 @@ f₀  = 1 / (2π√(LC))
 
 | Rechenwert  | Messwert | Folie 7     |
 |:-----------:|:--------:|:-----------:|
-| ~5032.92 Hz  | 5 kHz    | 1300 Hz     |
+| ~5032.92 Hz | 5 kHz    | 1300 Hz     |
+
+## 4
+**Vergleich:** Vergleichen Sie Ihren Rechenwert (aus 1.), Ihren Messwert (aus 3.) und den Wert auf Folie 7. Was stellen Sie fest?
+
+Der berechnete Wert entspricht unter Berücksichtigung kleiner Messabweichungen weitgehend dem simuliert ermittelten Wert.
+Der auf Folie 7 angegebene Wert ist jedoch deutlich geringer. Dies ist auf die etwa zehnfach höhere Induktivität sowie die erhöhte Kapazität in dem dort dargestellten Beispiel zurückzuführen.
+Da die Impedanz im Nenner der Resonanzformel steht, führt dies zu einer entsprechend deutlich niedrigeren Resonanzfrequenz.
