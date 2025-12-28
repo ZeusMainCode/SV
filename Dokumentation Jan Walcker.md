@@ -117,3 +117,50 @@ Beantworten Sie die folgenden Fragen:
     Bei der Resonanzfrequenz erreicht die Impedanz ihr Maximum, was zu einer erhöhten Spannung führt.
   - **Reihenschwingkreis:**
     Bei der Resonanzfrequenz ist die Impedanz minimal, wodurch die Spannung ein Minimum annimmt.
+
+# Task 4
+## 1
+Bauen Sie das R-2R-Netzwerk im Simulator auf.
+
+## 2 
+Stellen Sie nacheinander alle 8 Binärkombinationen (von 000 bis 111) mit den drei Schaltern ein.
+
+## 3
+
+**Messen** Sie für jede Kombination die resultierende analoge Ausgangsspannung Uaus (Tipp: der "DC Level" im Scope) und füllen Sie die folgende Tabelle aus.
+
+| Bit 2 (MSB) | Bit 1 | Bit 0 (LSB) | Dezimalwert | Uaus (V) |
+|:-----------:|:-----:|:-----------:|:-----------:|:--------:|
+| 0           | 0     | 0           | 0           | 0.0 V    |
+| 0           | 0     | 1           | 1           | 3.333 V  |
+| 0           | 1     | 0           | 2           | 4.0 V    |
+| 0           | 1     | 1           | 3           | 4.762 V  |
+| 1           | 0     | 0           | 4           | 5.0 V    |
+| 1           | 0     | 1           | 5           | 6.0 V    |
+| 1           | 1     | 0           | 6           | 6.25 V   |
+| 1           | 1     | 1           | 7           | 6.563 V  |
+
+## 4
+Dokumentieren Sie durch ein GIF, wie sich die Ausgangsspannung ändert, wenn Sie die Binärkombinationen durchschalten.
+
+ ![Task4 GIF](https://raw.githubusercontent.com/SpongebobSquarepants35/SV2/main/HDGifs/Task4SV2HD.gif)
+
+### Auswertung
+- Analysieren Sie Ihre Messwerte. Was stellen Sie fest?
+  - Die Messwerte zeigen, dass die Spannung stufenweise monoton ansteigt.
+- Berechnen Sie die Spannungsdifferenz (die "Schrittgröße") zwischen den einzelnen Dezimalwerten (z.B. die Differenz zwischen Wert 1 und Wert 2). Ist diese Schrittgröße konstant?
+
+| Schritt   | Differenz (V) |
+|:---------:|:-------------:|
+| 0 → 1     | 3.333         |
+| 1 → 2     | 0.667         |
+| 2 → 3     | 0.762         |
+| 3 → 4     | 0.238         |
+| 4 → 5     | 1.0           |
+| 5 → 6     | 0.25          |
+| 6 → 7     | 0.313         |
+
+-> Die Schrittgröße ist nicht konstant. Somit ist der Spannungsanstieg nicht linear.
+
+- Erklären Sie, warum die Schaltung das tut, was auf Folie 30 (Quantisierung/Treppenstufen) gezeigt wird.
+  - Die Schaltung erzeugt durch die 3 Schalter und die dazugehörigen Widerstände eine begrenzte Anzahl      unterschiedlicher Spannungswerte. Diese festen Spannungsstufen werden genutzt, um die abgetasteten Werte des      analogen Signals auf die nächstliegende Stufe zu setzen. Dadurch entsteht das typische Treppenstufen‑Signal der Quantisierung.
