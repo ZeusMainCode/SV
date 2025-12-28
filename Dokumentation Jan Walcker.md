@@ -78,3 +78,22 @@ Stellen Sie den Widerstand R so ein, dass Sie ihn interaktiv verändern können 
 - Was bedeutet das für die **Güte Q** und die **Bandbreite** der Schaltung (vgl. Folie 9)?
   - Wenn der Widerstand sinkt, wird die Güte höher und die Bandbreite schmaler. 
     Bei steigendem Widerstand, steigt auch die Bandbreite und die Güte sinkt.
+
+# Task 3
+## 1
+Bauen Sie beide Schaltungen im Simulator auf.
+
+## 2
+Berechnen Sie zuerst die erwartete Resonanzfrequenz f₀ (Thomsonsche Formel).
+
+$$
+f_0 = \frac{1}{2 \pi \sqrt{L C}}
+$$
+
+$$
+f_0 = \frac{1}{2 \pi \sqrt{(1 \cdot 10^{-3} \, \text{H}) \cdot (10 \cdot 10^{-9} \, \text{F})}}
+$$
+
+$$
+f_0 \approx 50329.21 \, \text{Hz}
+$$
