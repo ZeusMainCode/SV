@@ -81,10 +81,10 @@ Stellen Sie den Widerstand R so ein, dass Sie ihn interaktiv verändern können 
 
 # Task 3
 ## 1
-Bauen Sie beide Schaltungen im Simulator auf.
+**Bauen** Sie beide Schaltungen im Simulator auf.
 
 ## 2
-Berechnen Sie zuerst die erwartete Resonanzfrequenz f₀ (Thomsonsche Formel).
+**Berechnen** Sie zuerst die erwartete Resonanzfrequenz f₀ (Thomsonsche Formel).
 
 $$
 f_0 = \frac{1}{2 \pi \sqrt{L C}}
@@ -97,3 +97,10 @@ $$
 $$
 f_0 \approx 50329.21 \, \text{Hz}
 $$
+
+## 3
+**Simulieren** Sie den Frequenzgang der Ausgangsspannung für beide Schaltungen (z.B. in einem Bereich von 15 kHz bis 30 kHz).
+
+## 4
+**Dokumentieren** Sie Ihre Ergebnisse durch GIFs, die den Frequenzgang beider Schaltungen zeigen.
+ ![Task3 GIF](https://raw.githubusercontent.com/SpongebobSquarepants35/SV2/main/HDGifs/Task3SV2LongHD.gif)
