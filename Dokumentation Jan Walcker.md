@@ -25,9 +25,18 @@
 ## 1
 **Berechnung:** Berechnen Sie zuerst die theoretische Resonanzfrequenz f₀ mit der Formel von Folie 5 und den gegebenen Werten.
 
-f₀  = 1 / (2π√(LC))
-    = 1/(2π√((10*10^-3)H * (100*10^-9)F))
-    = 5032.92121Hz
+$$
+f_0 = \frac{1}{2 \pi \sqrt{L C}}
+$$
+
+$$
+f_0 = \frac{1}{2 \pi \sqrt{(10 \cdot 10^{-3} \, \text{H}) \cdot (100 \cdot 10^{-9} \, \text{F})}}
+$$
+
+$$
+f_0 \approx 5032.92 \, \text{Hz}
+$$
+
 
 ## 2
 **Simulation:** Bauen Sie die Schaltung auf. Finden Sie im Simulator die Frequenz, bei der der Strom I maximal ist. (Tipp: Verwenden Sie einen "Slider" für die Frequenz und beobachten Sie die Helligkeit/Geschwindigkeit der fließenden Punkte).
@@ -47,3 +56,6 @@ f₀  = 1 / (2π√(LC))
 Der berechnete Wert entspricht unter Berücksichtigung kleiner Messabweichungen weitgehend dem simuliert ermittelten Wert.
 Der auf Folie 7 angegebene Wert ist jedoch deutlich geringer. Dies ist auf die etwa zehnfach höhere Induktivität sowie die erhöhte Kapazität in dem dort dargestellten Beispiel zurückzuführen.
 Da die Impedanz im Nenner der Resonanzformel steht, führt dies zu einer entsprechend deutlich niedrigeren Resonanzfrequenz.
+
+# Task 2
+## 1
