@@ -36,3 +36,7 @@ f₀  = 1 / (2π√(LC))
 
 ## 3
 **Dokumentation:** Notieren Sie die Frequenz, die Sie im Simulator gemessen haben.
+
+| Rechenwert  | Messwert | Folie 7     |
+|:-----------:|:--------:|:-----------:|
+| ~5032.92 Hz  | 5 kHz    | 1300 Hz     |
