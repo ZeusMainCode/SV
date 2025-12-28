@@ -59,3 +59,12 @@ Da die Impedanz im Nenner der Resonanzformel steht, führt dies zu einer entspre
 
 # Task 2
 ## 1
+Finden Sie eine Methode in der Simulationssoftware, um den Frequenzgang des Stroms sichtbar zu machen. (Tipp: Die Spannung am Widerstand R ist proportional zum Strom I).
+
+## 2
+Stellen Sie den Widerstand R so ein, dass Sie ihn interaktiv verändern können (z.B. mit einem Schieberegler).
+
+## 3
+**Dokumentieren** Sie durch ein GIF, wie sich die Form der Resonanzkurve (die "Peak-Form") ändert, wenn Sie R von einem sehr kleinen Wert (z.B. 5 Ω) zu einem großen Wert (z.B. 300 Ω) ändern.
+
+![Task2 GIF](https://raw.githubusercontent.com/SpongebobSquarepants35/SV2/main/HDGifs/Task2SV2HD.gif)
