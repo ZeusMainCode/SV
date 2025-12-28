@@ -1,13 +1,14 @@
+<div align="right">
+
+**Datum:** 28.12.2025
+</div>
 <div align="center">
 
 # Signalverarbeitung 2
 
 ## Projektdokumentation
 
-<div align="right">
 
-**Datum:** 28.12.2025
-</div>
 
 # Student Information
 
