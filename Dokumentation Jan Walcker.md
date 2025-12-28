@@ -152,6 +152,8 @@ Dokumentieren Sie durch ein GIF, wie sich die Ausgangsspannung ändert, wenn Sie
 - Berechnen Sie die Spannungsdifferenz (die "Schrittgröße") zwischen den einzelnen Dezimalwerten (z.B. die Differenz
   zwischen Wert 1 und Wert 2). Ist diese Schrittgröße konstant?
 
+<div align="center">
+
 | Schritt   | Differenz (V) |
 |:---------:|:-------------:|
 | 0 → 1     | 3.333         |
@@ -163,6 +165,7 @@ Dokumentieren Sie durch ein GIF, wie sich die Ausgangsspannung ändert, wenn Sie
 | 6 → 7     | 0.313         |
 
 -> Die Schrittgröße ist nicht konstant. Somit ist der Spannungsanstieg nicht linear.
+</div>
 
 - Erklären Sie, warum die Schaltung das tut, was auf Folie 30 (Quantisierung/Treppenstufen) gezeigt wird.
   - Die Schaltung kann mithilfe von Widerständen und 3 Schaltern (3 Bit) unterschiedliche Spannungen erzeugen. 
