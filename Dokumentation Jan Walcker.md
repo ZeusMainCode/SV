@@ -148,7 +148,8 @@ Dokumentieren Sie durch ein GIF, wie sich die Ausgangsspannung ändert, wenn Sie
 ### Auswertung
 - Analysieren Sie Ihre Messwerte. Was stellen Sie fest?
   - Die Messwerte zeigen, dass die Spannung stufenweise monoton ansteigt.
-- Berechnen Sie die Spannungsdifferenz (die "Schrittgröße") zwischen den einzelnen Dezimalwerten (z.B. die Differenz zwischen Wert 1 und Wert 2). Ist diese Schrittgröße konstant?
+- Berechnen Sie die Spannungsdifferenz (die "Schrittgröße") zwischen den einzelnen Dezimalwerten (z.B. die Differenz
+  zwischen Wert 1 und Wert 2). Ist diese Schrittgröße konstant?
 
 | Schritt   | Differenz (V) |
 |:---------:|:-------------:|
@@ -163,4 +164,6 @@ Dokumentieren Sie durch ein GIF, wie sich die Ausgangsspannung ändert, wenn Sie
 -> Die Schrittgröße ist nicht konstant. Somit ist der Spannungsanstieg nicht linear.
 
 - Erklären Sie, warum die Schaltung das tut, was auf Folie 30 (Quantisierung/Treppenstufen) gezeigt wird.
-  - Die Schaltung erzeugt durch die 3 Schalter und die dazugehörigen Widerstände eine begrenzte Anzahl      unterschiedlicher Spannungswerte. Diese festen Spannungsstufen werden genutzt, um die abgetasteten Werte des      analogen Signals auf die nächstliegende Stufe zu setzen. Dadurch entsteht das typische Treppenstufen‑Signal der Quantisierung.
+  - Die Schaltung kann mithilfe von Widerständen und 3 Schaltern (3 Bit) unterschiedliche Spannungen erzeugen. 
+    Diese festen Spannungsstufen werden bei der PCM‑Wandlung zur Quantisierung genutzt: Jeder abgetastete Wert des
+    analogen Signals wird auf eine dieser Stufen gesetzt, wodurch die typischen Treppenstufen entstehen.
