@@ -172,3 +172,26 @@ Dokumentieren Sie durch ein GIF, wie sich die Ausgangsspannung ändert, wenn Sie
     Diese festen Spannungsstufen werden bei der PCM‑Wandlung zur Quantisierung genutzt: Jeder abgetastete Wert des
     analogen Signals wird auf eine dieser Stufen gesetzt, wodurch die typischen Treppenstufen entstehen.
 
+# Task 5
+## 1
+**Berechnung:** Berechnen Sie die theoretische Resonanzfrequenz f₀ für den LC-Bandpass (L = 1 mH, C = 10 nF). Notieren Sie Ihren Rechenweg und das Ergebnis.
+
+$$
+f_0 = \frac{1}{2 \pi \sqrt{L C}}
+$$
+
+$$
+f_0 = \frac{1}{2 \pi \sqrt{(1 \cdot 10^{-3} \, \text{H}) \cdot (10 \cdot 10^{-9} \, \text{F})}}
+$$
+
+$$
+f_0 \approx 50329.21 \, \text{Hz}
+$$
+
+## 2
+**Aufbau:** Bauen Sie den Bandpass-Filter vom Typ auf Folie 12 (oberes Bild) im Simulator nach. Verwenden Sie Ri = 2,2 kΩ und die gegebenen L/C-Werte.
+
+## 3
+**Simulation:**
+- Speisen Sie die Schaltung mit einer Rechteckspannung (Square Wave).
+- Stellen Sie die Grundfrequenz f₁ der Rechteckwelle genau auf die in Schritt 1 berechnete Resonanzfrequenz f₀ ein.
