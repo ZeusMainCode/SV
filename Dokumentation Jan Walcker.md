@@ -195,3 +195,17 @@ $$
 **Simulation:**
 - Speisen Sie die Schaltung mit einer Rechteckspannung (Square Wave).
 - Stellen Sie die Grundfrequenz f₁ der Rechteckwelle genau auf die in Schritt 1 berechnete Resonanzfrequenz f₀ ein.
+
+## 4
+**Messung & Dokumentation:**
+- Öffnen Sie das Oszilloskop ("Scope") und zeigen Sie das Eingangssignal (an der Quelle) und das Ausgangssignal (über dem L/C-Parallelkreis) gleichzeitig an.
+- Dokumentieren Sie durch ein GIF, das beide Wellenformen zeigt.
+
+![Task5 GIF](https://raw.githubusercontent.com/SpongebobSquarepants35/SV2/main/HDGifs/Task5SV2HD.gif)
+
+## 5
+**Erklärung:**
+- Beschreiben Sie den Unterschied zwischen der Eingangs- und der Ausgangswellenform.
+  - Die Eingangssignal ist rechteckig, während das Ausgangssignal 
+- Erklären Sie mit Verweis auf die Fourier-Analyse (Folie 25), warum das Ausgangssignal diese Form hat. Welche Frequenzkomponenten der Rechteckwelle lässt der Filter passieren und welche blockiert er?
+  - ...
