@@ -171,3 +171,4 @@ Dokumentieren Sie durch ein GIF, wie sich die Ausgangsspannung ändert, wenn Sie
   - Die Schaltung kann mithilfe von Widerständen und 3 Schaltern (3 Bit) unterschiedliche Spannungen erzeugen. 
     Diese festen Spannungsstufen werden bei der PCM‑Wandlung zur Quantisierung genutzt: Jeder abgetastete Wert des
     analogen Signals wird auf eine dieser Stufen gesetzt, wodurch die typischen Treppenstufen entstehen.
+
