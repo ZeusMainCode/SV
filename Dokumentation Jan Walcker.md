@@ -206,6 +206,6 @@ $$
 ## 5
 **Erklärung:**
 - Beschreiben Sie den Unterschied zwischen der Eingangs- und der Ausgangswellenform.
-  - Die Eingangssignal ist rechteckig, während das Ausgangssignal 
+  - Die Eingangssignal ist rechteckig, während das Ausgangssignal sinusförmig ist.
 - Erklären Sie mit Verweis auf die Fourier-Analyse (Folie 25), warum das Ausgangssignal diese Form hat. Welche Frequenzkomponenten der Rechteckwelle lässt der Filter passieren und welche blockiert er?
-  - ...
+  - Das Rechtecksignal besteht laut Fourier-Analyse aus der Grundfrequenz \(f_0\) und ungeraden Oberwellen. Der LC‑Bandpass ist auf \(f_0\) abgestimmt und dämpft alle höheren Harmonischen stark. Dadurch bleibt am Ausgang fast nur die Grundschwingung übrig – das Signal wird sinusförmig.
