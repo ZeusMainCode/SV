@@ -209,3 +209,52 @@ $$
   - Die Eingangssignal ist rechteckig, während das Ausgangssignal sinusförmig ist.
 - Erklären Sie mit Verweis auf die Fourier-Analyse (Folie 25), warum das Ausgangssignal diese Form hat. Welche Frequenzkomponenten der Rechteckwelle lässt der Filter passieren und welche blockiert er?
   - Das Rechtecksignal besteht laut Fourier-Analyse aus der Grundfrequenz \(f_0\) und ungeraden Oberwellen. Der LC‑Bandpass ist auf \(f_0\) abgestimmt und dämpft alle höheren Harmonischen stark. Dadurch bleibt am Ausgang fast nur die Grundschwingung übrig – das Signal wird sinusförmig.
+
+# Task 6
+## Schritt 1 (Sinus-Analyse)
+
+1. Stellen Sie die Quelle auf "Sine" (Sinus), 5V Amplitude.
+2. Führen Sie eine AC-Analyse ("Frequency"-Plot) am Ausgang (V) durch.
+3. Finden Sie die Frequenz, bei der die Schaltung ihre stärkste Resonanz (größte Verstärkung) zeigt.
+    - Die Schaltung zeigt ihre stärkste Resonanz ca. bei ~781kHz.
+
+## Schritt 2 (Rechteck-Analyse)
+
+4. Ändern Sie die Quelle zu einer "Square Wave" (Rechteck), 5V Amplitude.
+5. Stellen Sie die Grundfrequenz der Rechteckwelle auf 1,18 MHz ein. (Dies ist 1/3 der Resonanzfrequenz aus Schritt 1).
+6. Betrachten Sie den Eingang und den Ausgang (V) im Zeitbereich (Scope).
+    - Die Ausgangsspannung übersteigt die Eingangsamplitude von 5 V und erreicht etwa 6,87 V.
+7. Betrachten Sie den Eingang und den Ausgang (V) im Frequenzbereich (FFT / "Frequency").
+    - Die Ausgangsfrequenz entspricht weiterhin der Eingangsfrequenz von 1,18 MHz, jedoch werden die höheren Harmonischen stark unterdrückt. Dadurch erscheint das Ausgangssignal nahezu sinusförmig.
+
+## Schritt 3 (Variation)
+8. Ändern Sie die Grundfrequenz der Rechteckwelle auf 712 kHz. (Dies ist 1/5 der Resonanzfrequenz).
+9. Beobachten Sie erneut das Spektrum am Ausgang.
+    - Die Ausgangsspannung ist nochmals höher als in Schritt 2. Die Grundfrequenz bleibt unverändert, jedoch tritt nun eine zusätzliche höhere Harmonische auf, wodurch das Ausgangssignal nicht mehr perfekt sinusförmig ist.
+
+
+## Auswertung
+**Zeitbereich:** Vergleichen Sie das Eingangs- und Ausgangssignal. Welche Form hat das Ausgangssignal? Welche Frequenz hat es (grob gemessen)?
+
+Das Eingangssignal ist eine Rechteckwelle (Square Wave), das Ausgangssignal ist nahezu sinusförmig.
+
+Die Ausgangsfrequenz entspricht der Grundfrequenz der Rechteckwelle, also grob ≈ 1,18MHz.
+
+---
+**Frequenzbereich (Eingang):** Beschreiben Sie das Spektrum der Rechteckwelle, das Sie sehen. Welche Harmonischen sind vorhanden (1., 3., 5. ...)?
+
+Im Frequenzbereich zeigt die Rechteckwelle ein Spektrum aus der Grundfrequenz (1. Harmonische) und mehreren ungeraden Harmonischen. In der FFT erscheinen daher deutliche Peaks bei der 1., 3., 5., 7. 9. harmonischen der Grundfrequenz.
+
+---
+**Frequenzbereich (Ausgang):** Beschreiben Sie das Spektrum am Ausgang. Was ist mit der Grundschwingung (1,18 MHz) passiert? Was ist mit der 3. Harmonischen (3,56 MHz) passiert?
+
+Die Grundfrequenz liegt in der Nähe der Resonanz des Filters und wird daher deutlich verstärkt.
+
+Die Harmonische und höhere liegen weiter weg von der Resonanzfrequenz und werden stark gedämpft. In der Fourier-Transformation am Ausgang sind sie kaum oder gar nicht mehr sichtbar, übrig bleibt im Wesentlichen nur die Grundschwingung.
+
+---
+**Erklärung:** Fassen Sie zusammen, was der Filter mit dem Rechtecksignal gemacht hat und warum das Ausgangssignal so aussieht, wie es aussieht.
+
+Der Filter wirkt wie ein Bandpass um seine Resonanzfrequenz. Er verstärkt Frequenzen in der Nähe der Resonanz und dämpft Frequenzen weit davon entfernt.
+
+Das Eingangssignal (Rechteck) besteht aus vielen ungeraden Harmonischen. Der Filter unterdrückt die höheren Harmonischen und lässt fast nur die Grundschwingung durch. Da eine einzelne Frequenz eine Sinuswelle ist, erscheint das Ausgangssignal im Zeitbereich nahezu sinusförmig.
